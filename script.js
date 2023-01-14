@@ -56,7 +56,7 @@ window.onload = function() {
             secondsCount.innerHTML = seconds;
         }
         
-        if(seconds > 60){
+        if(seconds > 59){
             minutes++;
             minutesCount.innerHTML = "0" + minutes;
             seconds = 0;
